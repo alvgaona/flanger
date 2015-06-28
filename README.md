@@ -9,6 +9,3 @@ The next step, after verifying that the simulation, was to write the algorithm a
 
 #Hardware
 The hardware included some low pass filters before the ADC input and after the DAC ouput. Some decoupling capacitors between GND and VCC. AVCC was connected directly to AVCC. However, you might want to improve the stability of AVCC following the recommendations in the datasheets. Also some presets for on and off regarding the flanging and the variation of the sine frequency which controls the parameter 'b[n]'. ( y[n]=x[n]+a[x-b(n)] ).
-
-#Final Thoughts
-This project is of course open source and we wish to improve the code. 
