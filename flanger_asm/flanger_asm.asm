@@ -280,29 +280,6 @@ dac_write:		ldi  gpv1,0x00
 END:				
 
 
-				
-
-/*6/6/2015*/							
-/*Te enumero todo lo que hice (revisar):
-					 Calculo el último indice de la memoria SRAM donde se guardo la muestra actual.
-
-					 Después, agregué la lectura de la memoria ROM en funcion de ac (se hizo el shift acc >> 8 que hacemos en c y se obtiene la direccion y se le suma
-					 a la direccion de memoria de Z actual y se hace acc+=saltear).
-
-					 También, hice nb_posta = nb-n y hasta ahí llegué porque tengo algunas dudas. También compilé el file, arreglé algunos warnings y errores
-					 (faltan algunas que te comente en tus algortimos)
-*/
-
-/*Los errores son los 3 que te mencione al principio en el "antirebote" y que falta INCREMENTAR_FRECUENCIA. No está definida*/
-	
-/*7/6/2014
-
-if(nb_posta>MEM_LENGTH)
-encendido o apagado del efecto
-
-*/
-		
-
 		
 
 
