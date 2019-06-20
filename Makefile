@@ -19,8 +19,3 @@ clean:
 
 program:
 	sudo avrdude -p atxmega16a4 -P /dev/ttyUSB0 -c avr109 -b 115200 -U flash:w:$(arch).hex -e
-
-mensaje:
-	#		##################################		#
-	#		##### SE COMPILO TODO PAPA!! #####		#
-	#		##################################		#
